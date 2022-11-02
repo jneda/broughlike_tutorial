@@ -14,5 +14,7 @@ const game = {
 
 
     this.ctx = this.canvas.getContext("2d");
+
+    this.ctx.imageSmoothingEnabled = false;
   }
 }
